@@ -1,5 +1,5 @@
 # livesearch-hgc
-Use this plug-in to turn a normal form-input in to a live ajax search widget. The plug-in displays any HTML you like in the results and the search-results are updated live as the user types.
+Use this JQuery plug-in to turn a normal form-input in to a live ajax search widget. The plug-in displays any HTML you like in the results and the search-results are updated live as the user types.
 
 Based in original 2.0 Live Search version by Andreas Lagerkvist.
 Url: http://andreaslagerkvist.com/jquery/live-search/#jquery-plugin-example-code
