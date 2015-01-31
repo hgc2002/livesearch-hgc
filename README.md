@@ -4,6 +4,20 @@ Use this plug-in to turn a normal form-input in to a live ajax search widget. Th
 Based in original 2.0 Live Search version by Andreas Lagerkvist.
 Url: http://andreaslagerkvist.com/jquery/live-search/#jquery-plugin-example-code
 
+example of preprocess functions:
+
+		var liveSearchPreprocess1 = function(data) { 
+			alert(data); //just for debugging
+			//do something with the data here!
+			return data; 
+		}
+		var liveSearchPreprocess2 = function(data,div) { 
+			alert(data); //just for debugging
+			//here you can create lot of stuff with or without jquery and then fill the result div yourself!
+			div.html(data);
+			return data; 
+		}
+
 Modifications:
 
 v1.0 31-Jan-2015
